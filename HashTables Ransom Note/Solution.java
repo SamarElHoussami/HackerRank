@@ -6,7 +6,7 @@
             return;
         }
 
-        //stores words and number of times they occure
+        //stores words and number of times they occur
         HashMap<String, Integer> set = new HashMap<String, Integer>();
         for(String s: magazine) {
             //if word already seen, add to number of occurences
